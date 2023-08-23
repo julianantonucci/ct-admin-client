@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+$Rubik: "Rubik", sans-serif;
+
+// colors
+$backgroundMain: rgb(248, 248, 248);
+$backgroundSecondary: #f8f8f8;
+$backgroundCard:  rgb(255, 255, 255);
+
+$dark: rgb(29, 29, 29);
+$light: #fff;
+$lightGrey: #999;
+$mediumGrey: #666;
+$darkGrey: #333;
+$primary: rgb(162, 162, 246);
+$bg: rgb(244, 244, 255);
+$errorColor:  #ff2d00;
+
+$linkColor: #006fc6;
+// $visitedLinkColor: $linkColor;
+$visitedLinkColor: #002f86;
+
+$green200: #ddedda;
+$green500: #56a748;
+$greenText: $green500;
+$lightGreen: #c4e0bf;
+
+$neutral200: #F8F8F8;
+$neutral500: #999999;
+$neutral600: #808080;
+$orange200: #FEEFD7;
+$orange400: #FDCA7D;
+$orange500: #FCAD37;
+$orange600: #ca8a2c;
+$orange700: #976821;
+$orangeText: $orange700;
+$warningOrange: #fcad37;
+$lightOrange: #feefd7;
+
+$red100: #FBEEEE;
+$red500: #D22827;
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// border radius
+$borderRadius: 4px;
+
+$border: 1px solid #cdcdcd;
+$padding: .8rem 1.2rem;
+$primaryButtonColor: #976821;
+$primaryButtonBackground: #fdca7d;
+
+// header height
+$headerHeight: 5rem;
+
+$formFieldHeight: 40px;
+
+// container top margin
+$containerTopMargin: 0px;
+
+ 
+@mixin breakpoint($point) {
+    @if $point == md {
+        // 768px
+        @media (min-width: 48em) {
+            @content;
+        }
+    }
+}

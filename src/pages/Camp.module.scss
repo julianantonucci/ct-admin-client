@@ -1,0 +1,37 @@
+@import "../styles/shared";
+
+.heading {
+  padding-left: 0;
+  padding-bottom: 1rem;
+}
+.subheading {
+  padding-top: 2rem;
+  padding-left: 0;
+  padding-bottom: 1rem;
+}
+
+.details {
+  padding-top: 1rem;
+  font-style: italic;
+}
+
+.important {
+  font-size: large;
+}
+
+.detail {
+  margin-left: 1rem;
+  font-style: italic;
+}
+
+.camp_status {
+  display: inline-block;
+  margin-right: .5rem;
+}
+
+.save_button {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 12rem;
+  font-size: medium;
+}

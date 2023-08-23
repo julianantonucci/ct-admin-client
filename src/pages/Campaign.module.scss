@@ -1,0 +1,47 @@
+@import "../styles/shared";
+
+.heading {
+  padding-left: 0;
+  padding-bottom: 0;
+}
+.subheading {
+  padding-top: 2rem;
+  padding-left: 0;
+  padding-bottom: 1rem;
+}
+
+.detail_label {
+  padding-top: 1rem;
+  margin-right: .5rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.detail_value {
+  display: inline-block;
+}
+
+.details {
+  padding-top: 1rem;
+  font-style: italic;
+}
+
+.save_button {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  width: 12rem;
+  font-size: medium;
+}
+
+.important {
+  font-size: large;
+}
+
+.detail {
+  margin-left: 1rem;
+  font-style: italic;
+}
+
+.email_table {
+  margin-left: 0;
+}

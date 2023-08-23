@@ -1,0 +1,32 @@
+@import "../styles/shared";
+
+.invitations {
+
+  &__delete{
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    color: $warningOrange;
+    cursor: pointer;
+  }
+
+}
+
+.invite {
+  margin-top: .5rem;
+  &__title {
+    display: block;
+    font-weight: 700;
+  }
+  &_detail {
+    display: block;
+    font-size: .8rem;
+  }
+
+  &_expired {
+    color: $red500;
+  }
+}
+
+.invite:not(:last-child){
+    margin-bottom: 1rem;
+}

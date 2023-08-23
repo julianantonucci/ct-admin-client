@@ -1,0 +1,8 @@
+@import "./../styles/shared";
+
+.sidebar {
+  width: 20rem;
+  background-color: $backgroundSecondary;
+  border-radius: $borderRadius;
+  min-height: calc(100vh - $headerHeight);
+}

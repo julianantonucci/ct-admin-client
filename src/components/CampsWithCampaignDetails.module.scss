@@ -1,0 +1,53 @@
+@import '../styles/shared';
+
+.table {
+  margin-top: 1rem;
+  padding-right: 2rem;
+  min-width: 50rem;
+  &__head{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: $orange500;
+  }
+}
+
+.table caption {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: $orange500;
+  margin-bottom: 0.5rem;
+}
+
+.table th {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  text-align: left;
+  font-weight: 400;
+}
+
+
+.table th:first-child {
+  padding-left: 0;
+  text-align: left;
+  min-width: 10rem;
+}
+
+
+.table td {
+  text-align: left;
+}
+
+.table .td_number {
+  text-align: right;
+}
+
+.camp_row {
+  margin: 0.5rem 0;
+
+  &__toggle {
+    margin-left: 1rem;
+  }
+  &__toggle:hover {
+    cursor: pointer;
+    color: $orange500;
+  }
+}

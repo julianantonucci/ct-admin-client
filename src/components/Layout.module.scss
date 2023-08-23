@@ -1,0 +1,22 @@
+@import '../styles/shared';
+
+.container {
+    // height: calc(100vh - #{$headerHeight});
+    padding-top: $containerTopMargin;
+    padding-left: 2rem;
+    background: $backgroundCard;
+    display: flex;
+    // justify-content: center;
+    align-items: flex-start;
+    min-height: calc(100vh - $headerHeight);
+    margin: 0rem 0rem;
+    @include breakpoint(md) {
+        align-items: start;
+    }
+
+    h1 {
+        padding: 1.5rem 2.5rem;
+        background: linear-gradient(220deg, $primary, rgba($primary, 0.2));
+        border-radius: $borderRadius calc(#{$borderRadius} * 10);
+    }
+}

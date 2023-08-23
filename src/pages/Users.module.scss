@@ -1,0 +1,53 @@
+@import '../styles/_shared.scss';
+
+.users {
+  &Title {
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: $greenText;
+  }
+}
+.user {
+  margin-bottom: 1rem;
+
+  &Name {
+    font-style: italic;
+    color: $orange700;
+    margin-right: 1rem;
+  }
+
+  &Email {
+    margin-right: 1rem;
+  }
+}
+.camps {
+  position: relative;
+  margin-left: 1rem;
+
+  &Title {
+    font-style: italic;
+  }
+
+  &__add {
+    margin-left: 1rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    color: $lightGrey;
+    cursor: pointer;
+    font-size: smaller;
+  }
+
+  &__remove {
+    margin-left: 1rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    color: $lightGrey;
+    cursor: pointer;
+    font-size: smaller;
+  }
+}
+
+.camp {
+  margin-left: 1rem;
+}

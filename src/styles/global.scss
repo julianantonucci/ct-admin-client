@@ -1,0 +1,157 @@
+@import "../styles/shared";
+@import "../styles/_loader";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    font-family: $Rubik;
+    color: $dark;
+    background-color: white;
+}
+
+.hint {
+    color: $lightGrey;
+    font-family: $Rubik;
+}
+
+#root {
+    height: 100%;
+}
+.hint {
+  color: $lightGrey;
+}
+
+h1 {
+  color: $orangeText;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  color: $orange500;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+caption {
+  color: $orange500;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+
+th {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+p {
+  max-width: 35rem;
+}
+
+input {
+  width: 100%;
+  padding: $padding;
+  border-radius: $borderRadius;
+  border: $border;
+  height: $formFieldHeight;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+input[type='checkbox'] {
+  height: unset;
+  margin-bottom: 0;
+}
+
+p.error {
+  position: relative;
+  top: -1rem; // Same as input margin-bottom
+  left: 1rem; // Same as input margin-bottom
+  color: $errorColor;
+  font-size: .8rem;
+}
+
+label {
+  color: $dark;
+  font-family: $Rubik;
+  font-weight: 500;
+}
+
+button {
+  width: 100%;
+  height: $formFieldHeight;
+}
+
+button {
+  padding: $padding;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: $primaryButtonBackground;
+  border-radius: $borderRadius;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-size: 1.2rem;
+  color: $primaryButtonColor;
+  text-transform: uppercase;
+  transition: 0.3s ease all;
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  &:hover {
+    background: #fee2b9;
+  }
+  &:active {
+    background: linear-gradient(
+      rgba($primaryButtonBackground, 0.2),
+      rgba($primaryButtonBackground, 0.3)
+    );
+    color: $primaryButtonColor;
+  }
+}
+
+a {
+  outline: none;
+}
+
+a:link {
+  color: $linkColor;
+}
+
+a:visited {
+  color: $visitedLinkColor;
+}
+
+a:focus {
+  color: $red500;
+  background-color: $red100;
+  border-color: $linkColor;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: $red500;
+  background-color: $red100;
+  border-color: $linkColor;
+  text-decoration: underline;
+}
+
+a:active {
+  color: $red500;
+}
+

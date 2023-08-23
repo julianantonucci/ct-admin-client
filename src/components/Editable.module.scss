@@ -1,0 +1,9 @@
+@import '../styles/_shared.scss';
+
+.editable::after {
+  content: " ✎";
+}
+
+.changed {
+  color: $red500;
+}

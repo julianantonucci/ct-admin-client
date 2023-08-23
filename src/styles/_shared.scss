@@ -1,0 +1,15 @@
+@import "variables";
+
+.show_hide_button {
+  display: inline-block;
+  width: 2rem;
+  height: 1rem;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+.show_hide_button:hover {
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+td.number_cell {
+  text-align: right;
+}

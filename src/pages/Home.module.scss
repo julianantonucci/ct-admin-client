@@ -1,0 +1,28 @@
+@use "../styles/sidebar";
+@import "./../styles/shared";
+
+.container {
+  display: flex;
+  flex-direction: row;  
+  width: 100%;
+  gap: 1rem;
+
+  .main {
+    width: 75rem;
+  }
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 100%;
+}
+
+.killButton {
+  margin-top: 2rem;
+}
+
+.section {
+  margin-left: 0;
+}
+

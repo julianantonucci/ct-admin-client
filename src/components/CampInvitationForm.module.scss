@@ -1,0 +1,18 @@
+@import "../styles/shared";
+
+.camp_invite {
+  width: 30rem;
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+
+  &__result {
+    margin-bottom: 2rem;
+  }
+
+  &__email {
+    text-transform: lowercase;
+  }
+}
+
